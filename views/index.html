@@ -46,7 +46,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quasi quidem ducimus praesentium aut officia, vero, unde sit, quia laborum obcaecati rem numquam? Aperiam, dicta beatae eius, vero magnam reiciendis.</p>
             </article>
         </div>
-        <!-- welcome -->
+        <!-- about starts-->
         <div class="scene" id="about">
             <article class="heading">
                 <h2>ABOUT</h2>
@@ -56,8 +56,6 @@
                     <h2>Mission</h2><span> 
           <p><strong>More Information</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quam iure quo culpa perspiciatis, nulla, autem ea rerum, delectus neque consectetur amet recusandae veniam aliquam nesciunt, doloremque accusamus nisi quisquam!.</p></span>
                 </section>
-            </article>
-            <article id="about2">
                 <section id="greenProgram">
                     <h2>Green Program</h2>
                     <p><strong>Info</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus, voluptas fugiat id, quo modi praesentium pariatur voluptatem, accusantium unde obcaecati officiis facilis voluptatum aut nihil corrupti sit perspiciatis impedit?.</p>
@@ -66,17 +64,17 @@
         </div>
         <!-- </div> -->
         <!-- bottom extra info -->
-        <header>
+        <header class="container">
             <div class="scene" id="gallery">
                 <h1>GALLERY</h1>
                 <div class="slides">
-                    <div class="slide"><img src="/images/g-neck1.jpg" alt="">
+                    <div class="slide"><img src="/images/g-neck1.jpg" width="900" height="544" alt="">
                     </div>
                     <div class="slide">
-                        <img src="/images/g-scharf.jpg" alt="">
+                        <img src="/images/g-scharf.jpg"  width="900" height="544"alt="">
                     </div>
                     <div class="slide">
-                        <img src="/images/g-volcanic .jpg" alt="">
+                        <img src="/images/g-volcanic .jpg" width="900" height="544" alt="">
                     </div>
                     <div class="slide">
                         <img src="/images/model1.jpg" width="900" height="544" alt="">
@@ -96,13 +94,7 @@
                 </div>
             </div>
             </div>
-            <!--             </div>
-            </div>
- -->
-            </section>
-            </article>
-            </div>
-        </header>
+        
         <!-- jewlery display -->
         <div class="scene" id="jewelery">
             <article id="handmade">
@@ -110,17 +102,33 @@
                 <p>Hand made dolor sit amet, consectetur adipisicing elit. Reiciendis eos, minima esse tenetur consequatur quasi necessitatibus ut provident nisi delectus error harum, libero atque voluptatum explicabo! Placeat reprehenderit consequatur similique.! </p>
             </article>
             <article id="kinds">
-                <section id="neckless">
+                <section class="neckless1">
                     <h2>Neckless</h2>
-                    <img src="/images/n-1.jpg" width="300" alt="">
+                    <img src="/images/n-1.jpg" width="300" alt="">  
+                    <p><strong>The Brilliance of Color</strong><br>Silver Collection for this season's joyful spirit</p>
+
                 </section>
-                <section id="kinds2">
+                <article id="kinds">
+                <section class="neckless2">
+                    <h2>Neckless</h2>
+                    <img src="/images/neck2.jpg" width="700" alt=""> 
+                     <p><strong>The Brilliance of Color</strong><br>Silver Collection for this season's joyful spirit</p>
+
+                </section>
+                <article id="kinds">
+                <section class="kinds1">
+                    <h2>Earrings</h2>
+                    <img src="/images/r.jpg" width="300" alt="">  
+                </section>
+                <article id="kinds">
+                <section class="kinds2">
                     <h2>Earrings</h2>
                     <img src="/images/e2.jpg" width="300" alt="">
                 </section>
-                <section id="kinds3">
+                <article id="kinds">
+                <section class="kinds3">
                     <h2>Rings</h2>
-                    <img src="/images/ rings.jpg" width="300" alt="">
+                    <img src="/images/g-r.jpg" width="300" alt="">
                 </section>
             </article>
             <!-- display of jewle under jewe tab -->
@@ -131,37 +139,38 @@
         </div>
         <!-- jewl ends-->
         <div class="scene" id="contact">
-            <form class="form-horizontal" role="form" style="width: 100%;">
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">Name</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="email" class="col-md-2 control-label">Email</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="message" class="col-md-2 control-label">Message</label>
-                    <div class="col-md-10">
-                        <textarea class="form-control" rows="4" name="message"></textarea>
-                    </div>
-                </div>
-        </div>
-        <div class="form-group">
-            <div class="col-md-10 col-md-offset-2">
-                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-md-10 col-md-offset-2">
-            </div>
-        </div>
-        </form>
-        </div>
+            <form class="form-horizontal">
+      <fieldset>
+       <legend>CONTACT US</legend>
+         <div class="form-group">
+           <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+        <input type="text" class="form-control" id="name" placeholder="Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="text" class="col-lg-2 control-label">Email</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="smith@gmail.com" placeholder="Email">
+         <div class="checkbox">  
+       </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">Message</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+       
+      </div>
+    </div>
+   
+       
+      <div class="col-lg-10 col-lg-offset-2">
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
         <footer class="scene-end">
             <article class="content">
                 <div id="socialmedia">
@@ -174,7 +183,7 @@
                         </li>
                     </ul>
                 </div>
-            </article>
+            </article> -->
         </footer>
         <script src="/js/slide.js"></script>
 </body>

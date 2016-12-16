@@ -84,6 +84,11 @@ li {
 	font-size: 20px;
 	display: inline-block;
 }
+#gallery img {
+	text-align: right;
+	padding-top: 20px;
+	margin-right: 35px;
+}
 
 .menu a {
 	text-decoration: none;
@@ -94,19 +99,24 @@ li {
 
 }
 .gallery1 img {
-	padding: 10px;
+	padding: 25px;
 	border-radius: 20%;
 	display: none;
 	display: inline;
 }
 article {
 	text-align: center;
-	padding: 60px;
-
+	padding: 20px;
 }
-#about {
-	margin-right: 65%;
+#gallery h1 {
+	padding: 15px;
+}
 
+#aboutInfo {
+	display: block;
+	padding: 5px;
+	background-color: #BEC7D3;
+	float: left;
 }
 #mission {
 	float: left;
@@ -123,37 +133,13 @@ article {
 .menu li ul {
 	margin-right: 10px;
 }
-/*.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
+#content {
+	padding: 15px;
+}
+.container {
+	text-align: center;
+}	
 
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }*/
 
 #gallery {
 	width: 100%;
@@ -173,11 +159,21 @@ article {
 	width: 100%;
 	
 }
-
-
-
-
-
+#kinds .neckless1 {
+	float: left;
+}
+#kinds p {
+	float: right;
+}
+#kinds .neckless2 {
+	float: left;
+}
+#kinds .kinds1 {
+	float: right;
+}
+#kinds .kinds1 p {
+	padding: 10px;
+}		
 /*.scene-end {
 	display: inline-block;
 	text-align: center;
