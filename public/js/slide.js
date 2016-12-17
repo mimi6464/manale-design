@@ -5,8 +5,8 @@
 
 $(function() {
 	//configuration
-	var height= 550;
-	var animationSpeed =3000;
+	var height= 500;
+	var animationSpeed =1000;
 	var pause = 2000;
 	var currentSlide =1;
 
