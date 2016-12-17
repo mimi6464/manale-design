@@ -23,7 +23,7 @@ font-family: 'Arima Madurai', cursive;
 }
 #intro .brand {
 	background-color: #D3D9E1;
-	padding: 10px;
+	padding: 5px;
 }
 #intro span {
 	font-size: 30px;
@@ -51,13 +51,14 @@ h1 h2 {
 	border-top: 1px solid #000;
 	padding: 15px 0;
 	margin-left: 0;	
+	float: left;
 }
-#about2, #greenProgram {
+/*#about2, #greenProgram {
 	margin: 0;
 	border-top: 1px solid #000;
 	padding: 15px 0;
 	float: left;	
-}
+}*/
 	
 
 
@@ -159,90 +160,47 @@ article {
 	width: 100%;
 	
 }
+#kinds {
+	display: inline-flex;
+}
 #kinds .neckless1 {
 	float: left;
+	padding: 2px;
+	
 }
 #kinds p {
 	float: right;
-}
-#kinds .neckless2 {
-	float: left;
-}
-#kinds .kinds1 {
-	float: right;
-}
-#kinds .kinds1 p {
-	padding: 10px;
-}		
-/*.scene-end {
-	display: inline-block;
-	text-align: center;
-}
-
-/*#gallery img{
-	width: 100%;
-}
-#gallery img {
-	padding: 5px;
-	width: 100%;
-
-}
-.fullpgImg img {
-	float: left;
-}
-
-footer {
-	display: inline-block;
-	background-color: #C9D1DB;
-}
-
-
-
-
-
-
-
-
-	/*padding: 10px;
-	font-family: 'Oxygen', sans-serif;
-	position: absolute;
-  	width: 100%;
-  	height: 100%;*/
-
-/*header #nav {
-  		width: 100%;
-  		z-index:  100%;
+	padding: 2px;
 	
 }
- #nav .navbar .brand span li a {
-      
-       float: left;
-       font-weight: 700;
-       font-family: 'Oxygen', sans-serif;
-       text-align: center;
-       text-transform: uppercase;
-       background: #818385;
-      
-         color: #fff;
-         text-decoration: none;
-         text-align: center;
-         display: inline-block;
-         padding: 10px;
-         font-size: 1.5em;
-
-#intro a img{
-	margin: 0 auto;
-	width: 100%;
-	overflow: auto;
-	clear: both;
+#kinds .neckless2 {
+	float: right;
+	padding: 2px;
+	
 }
-// .hgroup a img
-
-
-
-article, aside,footer, header,hgroup,main {
-	display: block;*/
+#kinds .neckless2 p {
+	float: left;
+	padding: 2px;
+}	
+#kinds .kinds1 {
+	float: right;
+	padding: 2px;
+	;
 }
+#kinds .kinds2{
+	float: left;
+	padding: 2px;
+	
+}		
+#kinds .kinds2{
+	float: left;
+	padding: 2px;
+	
+}
+#kinds .kinds3{
+	float: left;
+	padding: 2px;
+}	
 
 
 
@@ -251,20 +209,40 @@ p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 400;
 }
-h1 {
+h1:hover {
 	padding: 10px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 400;
+	color: #894605;
 }
 strong h2{
 	font-family: 'Oxygen', sans-serif;
   	font-weight: 300;
 }
+.footer .container{
+	background-color: #000;
+	padding: 30px;
+}
+.footer-meta-list{
+	float: left;
+	width: 22%;
+	padding: 20px 20px 20px;
+	
+}
+
+
+/*@media(min-width: 48em)*/;
+/*#footer-inner {
+	display: block;*/
+	/*clear: both;
+	background-color: #B1BBC9;*/
+}
+
 
 
 /*header .fullheight {
 	background: linear-gradient(to bottom,(0,0,0,0),
-		url(../public/images/main.jpg);
+		url(../publ#B1BBC9ic/images/main.jpg);
 }*/
 
 /*.container {
